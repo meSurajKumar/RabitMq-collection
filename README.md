@@ -1,4 +1,4 @@
-# RabbitMQ Email Messaging System - Exchange-Direct Branch (Hinglish)
+# RabbitMQ Email Messaging System - Exchange-Topic Branch (Hinglish)
 
 Yeh project ek simple email messaging system hai jo **RabbitMQ** ke **topic** exchange type ka use karta hai admin (producer) aur user (consumer) ke beech messages bhejne ke liye. Ismein do Node.js applications hain:
 
