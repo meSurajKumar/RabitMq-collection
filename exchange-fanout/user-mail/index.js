@@ -1,13 +1,10 @@
 const express = require('express');
 const app = express();
-const port = 3000;
-const {sendMail} = require('./producer')
+const port = 3001;
+const {receiveBroadCastMail} = require('./consumer')
 
-setInterval(()=>{
-    sendMail()
-    
-},1000)
 
+receiveBroadCastMail();
 
 app.listen(port , ()=>console.log('Litening To Port : ',port))
 

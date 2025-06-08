@@ -1,10 +1,10 @@
 const express = require('express');
 const app = express();
-const port = 3001;
-const {recieveMail} = require('./consumer')
+const port = 3002;
+const {receiveBroadCastSms} = require('./consumer')
 
 
-recieveMail();
+receiveBroadCastSms();
 
 app.listen(port , ()=>console.log('Litening To Port : ',port))
 
